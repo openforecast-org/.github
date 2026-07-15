@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/of-logo-full.png" alt="OpenForecast" width="440">
+  <img src="../assets/of-logo-full.png" alt="OpenForecast" width="440">
 </p>
 
 <p align="center"><em>Actionable insights, from research-grade forecasting.</em></p>
