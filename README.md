@@ -12,7 +12,7 @@
 
 ### smooth — forecasting that plans around uncertainty
 
-State-space time series forecasting for **R and Python**, built on the **ADAM** framework that unifies exponential smoothing (ETS), ARIMA, and regression in a single model. It produces full probabilistic forecasts rather than single point predictions, handles multiple seasonalities and short histories, and — crucially for supply chain — models the **intermittent and lumpy demand** that standard tools get badly wrong.
+State-space time series forecasting for **R and Python**, built on the **ADAM** framework that unifies exponential smoothing (ETS), ARIMA, and regression in a single model. It produces full probabilistic forecasts rather than single point predictions, handles multiple seasonalities and short histories, and — crucially for supply chain — models the **intermittent demand** that standard tools get badly wrong.
 
 ```r
 # R
@@ -35,7 +35,12 @@ Companion tools for **R** that bring the real drivers of demand into the model: 
 install.packages("greybox")
 ```
 
-[GitHub](https://github.com/config-i1/greybox) · [CRAN](https://cran.r-project.org/package=greybox)
+```bash
+# Python
+pip install greybox
+```
+
+[GitHub](https://github.com/config-i1/greybox) · [CRAN](https://cran.r-project.org/package=greybox) · [PyPI](https://pypi.org/project/greybox/)
 
 ## What these solve
 
