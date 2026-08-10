@@ -12,6 +12,9 @@
 
 ### smooth — state-space forecasting for R and Python
 
+<img src="https://raw.githubusercontent.com/openforecast-org/smooth/master/python/img/smooth-python-web.png" alt="Hex sticker of the smooth package for Python" width="104" align="right">
+<img src="https://raw.githubusercontent.com/openforecast-org/smooth/master/man/figures/smooth-web.png" alt="Hex sticker of the smooth package for R" width="104" align="right">
+
 The core of the toolkit: forecasting built on the **ADAM** framework, which unifies exponential smoothing (ETS), ARIMA, and regression in a single state-space model. It produces full probabilistic forecasts rather than single point predictions, handles multiple seasonalities and short histories, and models the **intermittent demand** that standard tools get badly wrong.
 
 ```r
@@ -28,7 +31,10 @@ pip install smooth
 
 ### greybox — model building and evaluation for R and Python
 
-The companion toolkit that brings the real drivers of demand into the model: regression with information-criteria-based variable selection, explanatory forecasting, and honest forecast evaluation. This is how you explain *why* demand moves (promotions, pricing, seasonality) instead of extrapolating from history alone. The pacakge also includes tools for demand classification tehniques.
+<img src="https://raw.githubusercontent.com/openforecast-org/greybox/master/python/img/greybox-python-web.png" alt="Hex sticker of the greybox package for Python" width="104" align="right">
+<img src="https://raw.githubusercontent.com/openforecast-org/greybox/master/man/figures/greybox-web.png" alt="Hex sticker of the greybox package for R" width="104" align="right">
+
+The companion toolkit that brings the real drivers of demand into the model: regression with information-criteria-based variable selection, explanatory forecasting, and honest forecast evaluation. This is how you explain *why* demand moves (promotions, pricing, seasonality) instead of extrapolating from history alone. The package also includes tools for demand classification techniques.
 
 ```r
 # R
@@ -44,6 +50,8 @@ pip install greybox
 
 ### legion — multivariate forecasting for R
 
+<img src="https://raw.githubusercontent.com/openforecast-org/legion/master/man/figures/legion-web.png" alt="Hex sticker of the legion package for R" width="104" align="right">
+
 Models for forecasting several related series together via the vector exponential smoothing. Useful when products, regions, or channels move together and when shared dynamics carry information a univariate model throws away.
 
 ```r
@@ -52,9 +60,15 @@ install.packages("legion")
 
 [Repository](https://github.com/openforecast-org/legion) · [CRAN](https://cran.r-project.org/package=legion)
 
-### muse — Multiple Unobserved Sources of Error (C++)
+### muse — Multiple Unobserved Sources of Error (C++, R, Python)
+
+<img src="https://raw.githubusercontent.com/openforecast-org/muse/main/man/figures/muse-purple-light-web.png" alt="Hex sticker of the muse package" width="104" align="right">
 
 Research-grade implementation of the **MSOE** state-space framework — the multiple-source-of-error counterpart to the single-source models. Where the frontier of our methodology work lives.
+
+```r
+install.packages("legion")
+```
 
 [Repository](https://github.com/openforecast-org/muse)
 
@@ -80,4 +94,4 @@ The packages are freely available, and that transparency is the point. Our value
 
 ---
 
-<sub>Methodology: [ADAM (Svetunkov, 2023)](openforecast.org/adam). Built and maintained by the OpenForecast team.</sub>
+<sub>Methodology: [ADAM (Svetunkov, 2023)](https://openforecast.org/adam). Built and maintained by the OpenForecast team.</sub>
