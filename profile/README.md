@@ -67,7 +67,7 @@ install.packages("legion")
 Research-grade implementation of the **MSOE** state-space framework — the multiple-source-of-error counterpart to the single-source models. Where the frontier of our methodology work lives.
 
 ```r
-install.packages("legion")
+install.packages("muse")
 ```
 
 [Repository](https://github.com/openforecast-org/muse)
