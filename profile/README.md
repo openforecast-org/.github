@@ -6,7 +6,7 @@
 
 ---
 
-**OpenForecast** builds open-source forecasting tools and provides consulting and training in demand forecasting and inventory management. Our packages are the rigorous engine behind that work: grounded in peer-reviewed research, refined over a decade, and used by analysts worldwide.
+**OpenForecast** is a demand forecasting and inventory management consultancy and training provider founded by [Ivan Svetunkov](https://github.com/config-i1), and the home of the open-source forecasting tools behind that work. Our packages are the rigorous engine behind that work: grounded in peer-reviewed research, refined over two decades, and used by analysts worldwide.
 
 ## The packages
 
@@ -94,4 +94,4 @@ The packages are freely available, and that transparency is the point. Our value
 
 ---
 
-<sub>Methodology: [ADAM (Svetunkov, 2023)](https://openforecast.org/adam). Built and maintained by the OpenForecast team.</sub>
+<sub>Methodology: [ADAM (Svetunkov, 2023)](https://openforecast.org/adam). Built and maintained by OpenForecast Ltd, registered in England and Wales (11391477).</sub>
